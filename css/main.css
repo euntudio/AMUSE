@@ -169,6 +169,7 @@ body {
     height: 540px;
     background: url('../img/main_visual.jpg') center center / cover no-repeat;
     position: relative;
+    z-index: 1;
 }
 
 .main_visual .inner {
@@ -784,7 +785,7 @@ body {
     align-items: flex-start;
     padding: 8px 15px;
     background-color: #fff;
-    z-index: 9;
+    z-index: 99;
 }
 .bt_nav .inner p{
     font-size: 13px;
