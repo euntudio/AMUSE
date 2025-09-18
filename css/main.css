@@ -820,7 +820,7 @@ body {
 }
 .bt_nav .inner p{
     font-size: 13px;
-    text-decoration: none;
+    color: #000s;
 }
 .bt_nav .inner a{
     display: block;
