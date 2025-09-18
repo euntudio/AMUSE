@@ -290,6 +290,9 @@ body {
 
 .new .inner .swiper-slide a .text span {
     margin-top: 8px;
+    text-decoration: line-through;
+    color: #5c5c5c;
+    font-size: 14px;
 }
 
 .new .inner .swiper-slide a .text strong {
@@ -299,6 +302,8 @@ body {
 
 .new .inner .swiper-slide a .text strong span {
     color: #000;
+    text-decoration: none;
+    font-size: 16px;
 }
 
 
@@ -393,9 +398,10 @@ body {
 .best .Best-swiper .swiper-slide .item {
     display: flex;
     align-items: center;
+    gap: 9px;
 }
 
-.best .Best-swiper .swiper-slide .item>img {
+.best .Best-swiper .swiper-slide .item > img {
     width: 109px;
     object-fit: cover;
 }
@@ -416,6 +422,8 @@ body {
     font-size: 14px;
     text-decoration: line-through;
     margin-top: 9px;
+    font-size: 14px;
+    color: #5c5c5c;
 }
 
 .best .Best-swiper .swiper-slide .item .item_info .text strong {
@@ -428,6 +436,7 @@ body {
     text-decoration: none;
     font-weight: 600;
     color: #000;
+    font-size: 16px;
 }
 
 .best .swiper-horizontal>.swiper-pagination-bullets,
@@ -503,7 +512,7 @@ body {
 }
 
 .review .Review-swiper .swiper-slide {
-    width: 65.79%; /* 가로 넓이값 퍼센트 .swiper-slide 영역에 작성 */
+    width: 49.02%; /* 가로 넓이값 퍼센트 .swiper-slide 영역에 작성 */
 }
 
 .review .Review-swiper .swiper-slide .item {
@@ -518,10 +527,16 @@ body {
 .review .Review-swiper .swiper-slide .item img {
     width: 100%;
     display: block;
+    object-fit: cover;
 }
 
 .review .Review-swiper .swiper-slide .item .image_wrap {
     position: relative;
+}
+.review .Review-swiper .swiper-slide .item .image_wrap > img {
+    height: 227px;
+    object-fit: cover;
+    border-radius: 5px 5px 0 0;
 }
 
 .review .Review-swiper .swiper-slide .item .image_wrap::before {
@@ -547,6 +562,7 @@ body {
     -webkit-line-clamp: 2;
     overflow: hidden;
     color: #fff;
+    font-size: 13px;
 }
 
 .review .Review-swiper .swiper-slide .item .image_wrap .star {
@@ -567,6 +583,7 @@ body {
     width: 100%;
     display: flex;
     align-items: center;
+    gap: 9px;
     border: 1px solid #F7B9C7;
     border-radius: 0 0 5px 5px;
     padding: 9px;
@@ -577,11 +594,11 @@ body {
     object-fit: cover;
 }
 .review .Review-swiper .swiper-slide .item .info_wrap p{
-    width: 100%;
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 2;
     overflow: hidden;
+    font-size: 14px;
     
 }
 
@@ -607,8 +624,9 @@ body {
     height: 58px;
     object-fit: cover;
 }
-.chance img p{
-    font-size: 14px;
+.chance p{
+    font-size: 15px;
+    display: block;
 }
 
 .first_deal{
@@ -632,7 +650,7 @@ body {
     margin-bottom: 3px;
 }
 .first_deal .inner .title p{
-    margin-bottom: 16px;
+    margin-bottom: 14px;
 }
 .first_deal .inner .title img{
     border-radius: 10px;
@@ -668,6 +686,9 @@ body {
 }
 .first_deal .swiper-slide .item .item_info .text span{
     margin-top: 9px;
+    text-decoration: line-through;
+    font-size: 14px;
+    color: #5c5c5c;
 }
 .first_deal .swiper-slide .item .item_info .icon{
     display: flex;
@@ -741,6 +762,9 @@ body {
 }
 .WY_pick .inner .list .item a .text span{
     margin-top: 9px;
+    text-decoration: line-through;
+    font-size: 14px;
+    color: #5c5c5c;
 }
 .WY_pick .inner .list .item a .text strong{
     margin-top: 4px;
@@ -748,6 +772,8 @@ body {
 }
 .WY_pick .inner .list .item a .text strong span{
     color: #000;
+    text-decoration: none;
+    font-size: 16px;
 }
 .WY_pick .inner .list .item .icon{
     display: flex;
@@ -770,9 +796,7 @@ body {
     border-radius: 5px;
 }
 
-.bt_nav{
-    position: relative;
-}
+.bt_nav{}
 .bt_nav .inner{
     width: 100%;
     height: 84px;
@@ -789,7 +813,9 @@ body {
 }
 .bt_nav .inner p{
     font-size: 13px;
-
+}
+.bt_nav .inner a{
+    display: block;
 }
 .bt_nav .inner .main_btn{
     width: 58px;
@@ -799,6 +825,10 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: -20px;
+    transform: translate(-50%);
 }
 .bt_nav .inner .main_btn img{
     width: 48px;
