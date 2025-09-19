@@ -881,7 +881,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    padding: 8px 15px;
+    padding: 8px 30px;
     background-color: #fff;
     z-index: 99;
 }
