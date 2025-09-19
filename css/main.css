@@ -97,14 +97,19 @@ body {
     margin-top: 20px;
 }
 
-.header .inner .top_bar .logo {}
+.header .inner .top_bar .logo {
+    width: 90px;
+}
 
 .header .inner .top_bar .logo a {
+    width: 100%;
     display: block;
 }
 
 .header .inner .top_bar .logo a img {
+    width: 100%;
     display: block;
+
 }
 
 .header .inner .top_bar .util {
