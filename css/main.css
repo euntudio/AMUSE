@@ -65,7 +65,7 @@ body {
 }
 
 #wrap {
-    max-width: 1024px;
+    max-width: 480px;
     margin: 0 auto;
     background-color: #fff;
 }
@@ -81,6 +81,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: rgba(255, 255, 255, 0.8);
+    border-bottom: 1px solid rgba(247, 185, 200, 0.5);
     position: fixed;
     left: 0;
     top: 0;
@@ -708,7 +709,6 @@ body {
 
 .first_deal .Firstdeal_swiper .swiper-slide .item {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     gap: 9px;
 }
@@ -719,12 +719,15 @@ body {
 }
 
 .first_deal .swiper-slide .item .item_info {
+    width: 100%;
     display: flex;
     align-items: flex-end;
+    justify-content: space-between;
 }
 
 .first_deal .swiper-slide .item .item_info .text {
     display: flex;
+    justify-content: space-between;
     flex-direction: column;
 }
 
