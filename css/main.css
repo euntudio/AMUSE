@@ -65,7 +65,7 @@ body {
 }
 
 #wrap {
-    max-width: 480px;
+    max-width: 1024px;
     margin: 0 auto;
     background-color: #fff;
 }
@@ -1042,3 +1042,7 @@ body {
 }
 
 .footer .other_wrap .copyright li {}
+
+@media screen and (max-width: 1024px) {
+
+};
